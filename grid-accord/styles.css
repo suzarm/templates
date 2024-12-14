@@ -1,0 +1,269 @@
+.wrapper-main{
+    max-width:1200px;
+    margin:40px auto;
+    display:flex;
+    gap:30px;
+    box-sizing: border-box;
+    padding-top:120px;
+    padding-bottom:100px;
+}
+
+.wrapper{
+    background-image: url(./images/evening.jpg);
+    background-size: cover;
+    font-family: "Open Sans", serif;
+} 
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0.3;
+    background-color: #00BDB5;
+}
+.aside{
+    display:grid;
+    width:27%;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:150px 150px 180px 100px 150px;
+    grid-gap:10px;
+    color:white;
+}
+
+.main{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display:grid;
+    max-width:73%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:repeat(3, 540px) ;
+    grid-gap:10px;
+}
+
+.aside-header{
+    position:relative;
+    grid-column:1/3;
+    background-image:url(./images/horses.jpg);
+    background-size: cover;
+   
+}
+
+.aside-content-about{
+    background-color:#B94E33;
+}
+
+.aside-content-contact{
+    background-color:#4D9F3C;
+}
+
+.aside-main{
+    grid-column:1/3;
+    grid-row:3/5;
+    background-color:#863241;
+}
+
+.aside-footer{
+    grid-column:1/3;
+    background-image:url(./images/horses.jpg);
+    background-size: cover;
+}
+
+.main-header{
+    grid-column:1/3 ;
+    background-color: rgb(29, 175, 219);
+    padding: 50px 20px;
+    background-image: url(./images/canon.jpg);
+    background-size:cover;
+}
+
+.main-header-h1{
+    font-size:62px;
+    border-left:3px solid rgb(29, 175, 219);
+    padding-inline:10px;
+    margin:0px;
+}
+
+.main-header-p{
+    margin:0px;
+    font-size:28px;
+    color: rgb(29, 175, 219);
+}
+
+.main-p{
+    width:450px;
+    font-size:18px;
+    padding-top:80px;
+    padding-inline: 20px;
+    line-height:27px;
+}
+
+.main-btn{
+    background-color: rgb(51, 50, 50);
+    color:white;
+    font-size:14px;
+    padding:10px;
+    margin-inline:20px;
+    padding-inline:45px;
+}
+
+.main-content-london{
+    padding-top:7px;
+    background-color: white;
+    border:1px solid black;
+}
+
+.main-content-london-h1{
+    margin-bottom: 0px;
+    padding-inline:10px;
+    border-left:3px solid #00BDB5;
+    color: rgb(29, 175, 219);
+    font-size:22px;
+}
+
+.main-content-london-p{
+    margin:0px;
+    line-height:30px;
+    padding-inline:11px;
+    font-size:15px;
+    border-left:3px solid #00BDB5;
+}
+
+.main-content-london-text{
+    line-height: 20px;
+    font-size:17px;
+}
+
+.main-content-paris{
+    background-color: white;
+}
+
+.main-content-paris-h1{
+    margin-bottom: 0px;
+    padding-inline:10px;
+    border-left:3px solid#DF9801;
+    color: #DF9801;
+    font-size:22px;
+}
+
+.london-content-info{
+    padding:30px;
+}
+
+.paris-content-info{
+    padding:30px;
+}
+
+.main-content-paris-p{
+    margin:0px;
+    line-height:30px;
+    padding-inline:11px;
+    font-size:15px;
+    border-left:3px solid #DF9801;
+}
+
+.main-content-paris-text{
+    line-height: 20px;
+    font-size:17px;
+}
+
+.paris-content{
+    padding:10px;
+    background-color: white;
+}
+
+.picture-paris{
+    margin-top:7px;
+    background-image: url(./images/paris.jpg);
+    height:200px;
+    background-size:cover;
+}
+
+.picture-london{
+    background-image: url(./images/london.jpg);
+    height:200px;
+    background-size:cover;
+}
+
+.main-footer{
+    grid-column:1/3;
+    background-color:white;
+    padding:30px;
+    position:relative;
+}
+
+.main-footer-h1{
+    margin-bottom: 0px;
+    padding-inline:10px;
+    border-left:3px solid green;
+    color:green;
+    font-size:24px;
+}
+
+.main-footer-p{
+    margin:0px;
+    padding-inline:11px;
+    font-size:16px;
+    border-left:3px solid green;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top:50px;
+}
+
+ .img{
+    width:260px;
+    height:180px;
+}
+
+.main-footer-text{
+    font-size:19px;
+    padding:10px;
+}
+
+.footer{
+    border-top:1px solid rgb(201, 184, 184);
+    text-align: end;
+    padding-top:10px;
+    padding-inline:none;
+    color:lightgrey;
+    font-weight:600;
+}
+
+.footer-img span{
+    color:white;
+    position:absolute;
+    width:260px;
+    height:30px;
+    text-align:left;
+    padding-top:20px;
+    font-size:13px;
+   
+}
+
+.forest{
+    background-color:#2D8298;
+    right:578px;
+    bottom:218px;
+}
+
+.tiger{
+    background-color: #3A998D;
+    bottom:218px;
+}
+
+.mountain{
+    background-color: #BA8F19;
+    right:38px;
+    bottom:218px;
+}
+
+.square{
+    width:5px;
+    height:10px;
+    border:2px solid lightgrey;
+    position:absolute;
+    right:134px;
+    bottom:67px;
+}
+
