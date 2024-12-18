@@ -1,0 +1,161 @@
+.navbar-li-text a{
+    color:#6E9C9F!important;
+    font-weight:bold;
+}
+
+.section-main,.section-sweet-shot{
+    margin-top:120px;
+}
+
+.section-main-title{
+    font-size:55px;
+}
+
+.section-main-sweet-shot{
+    color: #909090;
+}
+
+.section-sweet-shot{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+
+.section-sweet-shot-image{
+    background-image:url(./images/Фото\ товара\ \(1\).png) ;
+    background-size: cover;
+    width:536px;
+    height:729px;
+}
+
+.section-sweet-shot-content{
+    margin-left:60px;
+    line-height:50px;
+}
+.sizing-container,.color-container,.add-basket{
+    margin-top:30px;
+    font-size: 20px;
+}
+
+.before{
+    padding-left:30px;
+    color:#9C9C9C;
+    text-decoration: line-through;
+    font-size:30px;
+}
+
+.after{
+    color:#998E78;
+    font-size:40px;
+}
+
+li{
+    list-style: none;
+}
+
+.sizes,.colors,.add-basket{
+    display: flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.sizes li{
+    border:1px solid black;
+    padding-inline:10px;
+}
+
+.m{
+    background-color: black;
+    color:white;
+}
+
+.colors .purple{
+    background-color:#927876 ;
+    width:41px;
+    height:41px;
+    border-radius: 50%;
+}
+
+.colors .violet{
+    background-color:#D4D4D4;
+    width:41px;
+    height:41px;
+    border-radius: 50%;
+}
+
+.colors .pink{
+    background-color:#FD9696 ;
+    width:41px;
+    height:41px;
+    border-radius: 50%;
+}
+
+.colors .light-pink{
+    background-color: #FDC796;
+    width:41px;
+    height:41px;
+    border-radius: 50%;
+}
+.add-basket{
+    margin-top:50px;
+}
+.basket-number{
+    border:1px solid black;
+    padding:8px 22px;
+}
+
+.basket-btn{
+    background-color: #6E9C9F;
+    color:white;
+    padding:12px 15px;
+    border:2px solid  #6E9C9F;
+    font-size:17px;
+}
+
+.section-main-collection-title{
+    font-size:40px;
+    font-weight:500;
+    margin-top: 80px;
+}
+
+.section-collection-main-images{
+    display:flex;
+    justify-content:space-between;
+    margin-top:60px;
+}
+
+
+.first-main-img{
+    background-image: url(./images/Фото\ товара@2x.png);
+    background-size: cover;
+    width:350px;
+    height:478px;
+}
+
+.second-main-img{
+    background-image:url(./images/christopher-campbell-va0YmkIFtPA-unsplash\ 1\ \(1\).png);
+    background-size: cover;
+    width:350px;
+    height:478px;
+}
+
+.empty-space-container {
+    width: 350px; 
+    height:478px;
+    background-color: transparent; 
+}
+
+.main-img-content{
+    font-size:20px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.main-img-content-p{
+    padding-top:10px;
+    text-align: center;
+    color:#998E78;
+}
+
+
+
