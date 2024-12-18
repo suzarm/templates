@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight:500;
 }
 
 .wrapper{
@@ -9,6 +10,7 @@
     width:100%;
     max-width:1200px;
     margin:auto;
+    margin-top:40px;
 }
 
 .navbar {
@@ -16,6 +18,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+}
+.navbar-li-text a{
+    color:#6E9C9F!important;
+    font-weight:bold;
 }
 
 .icon {
@@ -30,10 +36,11 @@
 }
 
 .logo-text {
-    font-size: 16px;
+    font-size:16px;
     color:black;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight:500;
+    letter-spacing: 2px;
 }
 
 .navbar-menu {
@@ -68,4 +75,90 @@
     text-decoration: none;
     font-size: 16px;
     margin-right: 20px;
+}
+
+.footer{
+    width:100%;
+    height:auto;
+    margin-top:100px;
+    background-color: #F1EADC;
+}
+
+.footer-navbar {
+    max-width:1200px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.footer-logo {
+    width: 18px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer-logo-text {
+    font-size: 16px;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer-navbar-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-navbar-menu li {
+    margin: 0 15px;
+}
+
+.footer-navbar-menu a {
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.footer-contact-info{
+    padding-top:40px;
+    line-height: 30px;
+    color:black;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+.footer-soc-media i{
+    font-size:22px;
+    padding-inline:5px;
+}
+
+.footer-content{
+    padding:20px;
+    display:flex;
+    max-width:1200px;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.footer-content-img{
+    height:22px;
+    width:60px;
+    display:block;
+    margin:20px;
+}
+
+.footer-content-list{
+    list-style: none;
+    line-height:28px;
 }
