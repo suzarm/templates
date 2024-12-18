@@ -1,0 +1,112 @@
+.section-main{
+    margin-top:120px;
+}
+
+.section-main span{
+    padding-inline:10px;
+}
+
+.section-main-store{
+    color: #909090;
+}
+
+.section-main-title{
+    font-size:55px;
+}
+
+.section-main-collection-name{
+    margin-top:140px;
+}
+
+.section-main-collection-name-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   list-style: none;
+}
+
+.section-main-collection-name-list li{
+    border:1px solid black;
+    padding:20px 80px;
+}
+
+.black{
+    background-color: black;
+    color:white;
+}
+
+.section-main-collection-title{
+    margin-top:80px;
+    color: #909090;
+}
+
+.section-collection-main-images{
+    display:flex;
+    justify-content:space-between;
+    margin-top:60px;
+}
+
+.first-main-img{
+    background-image: url(./images/Фото\ товара@2x.png);
+    background-size: cover;
+    width:350px;
+    height:478px;
+}
+
+.second-main-img{
+    background-image:url(./images/christopher-campbell-va0YmkIFtPA-unsplash\ 1\ \(1\).png);
+    background-size: cover;
+    width:350px;
+    height:478px;
+}
+
+.third-main-img{
+    background-image:url(./images/Фото\ товара\ \(1\).png) ;
+    background-size: cover;
+    width:350px;
+    height:478px;
+}
+
+.third-main-arrow-img{
+    background-image:url(./images/Фото\ товара.png) ;
+    background-size: cover;
+    width:350px;
+    height:478px;
+}
+
+.main-img-content{
+    font-size:20px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.main-img-content-p{
+    padding-top:10px;
+    text-align: center;
+    color:#998E78;
+}
+
+.next-page{
+    margin:80px;
+    text-align: center;
+}
+
+.next-page span{
+    font-size:17px;
+    margin-inline:10px
+}
+
+ .first-number{
+    color:white;
+    border:1px solid black;
+    background-color: black;
+    padding:10px 15px;
+}
+
+.second-number{
+    border:1px solid black;
+    padding:10px 15px;
+}
+
+
+
