@@ -113,9 +113,13 @@
     padding:15px 45px;
 }
 
-.main-footer-end-btn{
+.main-footer-end-btn {
     padding-inline:45px;
     background-color:#6E9C9F ;
     border:1px solid #6E9C9F;
+    
+}
+
+.main-footer-end-btn a{
     color:white;
 }

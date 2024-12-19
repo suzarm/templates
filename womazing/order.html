@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/basket.css">
-    <title>basket</title>
+    <link rel="stylesheet" href="./styles/order.css">
+    <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
@@ -20,7 +20,7 @@
                 <h2 class="logo-text">Womazing</h2>
             </div>
             <ul class="navbar-menu">
-                <li class="navbar-li-text">
+                <li class="navbar-li-text-a">
                     <a href="index.html">Главная</a>
                 </li>
                 <li>
@@ -40,47 +40,70 @@
             </div>
         </div>
         <div class="section-main">
-            <h1 class="section-main-title">Корзина</h1>
-            <span class="section-main-home">Главная</span> - <span class="section-main-contact">Корзина</span>
+            <h1 class="section-main-title">Оформление заказа</h1>
+            <span class="section-main-home">Главная</span> - <span class="section-main-contact">Оформление заказа</span>
         </div>
-        <div class="items">
-            <p class="item">Товар</p>
-            <ul class='first-item-list'>
-                <li>Цена</li>
-                <li>Количество</li>
-                <li>Всего</li>
-            </ul>
-        </div>
-        <div class="items-img">
-           <div class="choosen-items">
-                <p class="item-close">x</p>
-                <div class="img"></div>
-                <p class="item-title">Футболка USA</p>
-           </div>
-            <ul class='second-item-list'>
-                <li>$129</li>
-                <li class="item-num">1</li>
-                <li>$129</li>
-            </ul>
-        </div>
-        <div class="coupon-items">
-            <button class="coupon-input">Введите купон</button>
-            <button class="coupon-btn">Применить купон</button>
-            <button class="coupon-basket">Обновить корзину</button>
-        </div>
-        <div class="main-footer-content">
-            <div class="main-footer-container">
-                <span> Подытог : </span>
-                <span>  $129</span>
+        <div class="form-container">
+            <div class="buyer-content">
+                <div class="section-main-title">Данные покупателя</div>
+                <div class="section-main-form-input">
+                    <label >Имя</label>
+                    <input type="text">
+                    <label>E-mail</label>
+                    <input type="e-mail">
+                    <label class="phone-label">Телефон</label>
+                    <input type="tel" >
+                </div>
+            </div>
+            <div class="order-content">
+                <div class="section-main-title">Ваш заказ</div>
+                <div class="order-list">
+                    <ul class="order-item">
+                        <li>Товар</li>
+                        <li>Футболка USA</li>
+                        <li>Подытог</li>
+                        <li class="color-li">Итого</li>
+                    </ul>
+                    <ul class="order-price">
+                        <li>Всего</li>
+                        <li>$129</li>
+                        <li>$129</li>
+                        <li class="color-li">$129</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="main-footer-end">
-            <div class="main-footer-end-text">
-                <p> Подытог : </p>
-                <p>  $129 </p>
+        <div class="form-container">
+            <div class="buyer-content">
+                <div class="section-main-title">Адрес получателя</div>
+                <div class="section-main-form-input">
+                    <label >Страна</label>
+                    <input type="text">
+                    <label>Город</label>
+                    <input type="text">
+                    <label>Улица</label>
+                    <input type="text">
+                    <label>Дом</label>
+                    <input type="text">
+                    <label>Квартира</label>
+                    <input type="text">
+                    <h4 class='section-main-title'>Комментарии</h4>
+                    <p class="section-main-p">Страна</p>
+                    <div class="form-message">
+                        <input type="text" class="message-border">
+                    </div>
+                </div>
             </div>
-            <button class="main-footer-end-btn"><a href='order.html'>Оформить заказ</a></button>
-        </div>
+            <div class="order-content">
+                <div class="section-main-title">Ваш заказ</div>
+                <div class="payment-content">
+                    <div class="section-main-title">Способы оплаты</div>
+                    <input type="checkbox">
+                    <span>Оплата наличными</span>
+                    <button class="payment-btn"><a href="deliver.html"></a>Разместить заказ</button>
+                </div>
+            </div>
+        
     </div>
     <div class="footer">
         <div class="footer-navbar">
@@ -123,3 +146,6 @@
     
 </body>
 </html>
+
+
+      
