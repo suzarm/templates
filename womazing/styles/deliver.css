@@ -1,0 +1,53 @@
+.navbar-li-text-a{
+    color:black;
+}
+
+.section-main{
+    margin-top:130px;
+}
+
+.section-main span{
+    padding-inline:10px;
+}
+
+.section-main-contact{
+    color: #909090;
+}
+
+.section-main-title{
+    font-size:55px;
+    margin-bottom:30px;
+}
+
+.placed-order{
+    margin-top:130px;
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+
+.icon-btn{
+    border:1px solid #6E9C9F;
+    background-color: white;
+    padding: 15px 35px;
+    color: #6E9C9F;
+    margin-left: auto;
+}
+
+.icon-container{
+    font-size:33px ;
+    color:#6E9C9F;
+    border:4px solid #6E9C9F;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.icon-title{
+    font-size: 25px;
+}
+
+.icon-p{
+    margin-top:10px;  
+    font-size:16px ;  
+}
+
