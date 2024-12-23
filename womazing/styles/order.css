@@ -78,6 +78,9 @@
     background-color:#6E9C9F;
     border:1px solid #6E9C9F ;
     padding:22px 50px;
+}
+
+.payment-btn a{
     color:white;
 }
 
