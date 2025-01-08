@@ -13,8 +13,10 @@
     background-size: cover;
     font-family: "Open Sans", serif;
 } 
+
 .overlay{
     position:absolute;
+    top:0;
     width:100%;
     height:100%;
     opacity:0.3;
@@ -43,7 +45,10 @@
     grid-column:1/3;
     background-image:url(./images/horses.jpg);
     background-size: cover;
-   
+}
+
+.text{
+    text-align: center;
 }
 
 .aside-content-about{
@@ -133,6 +138,7 @@
 
 .main-content-paris{
     background-color: white;
+   
 }
 
 .main-content-paris-h1{
@@ -235,7 +241,7 @@
     position:absolute;
     width:260px;
     height:30px;
-    text-align:left;
+    text-align:center;
     padding-top:20px;
     font-size:13px;
    
