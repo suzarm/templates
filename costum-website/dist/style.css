@@ -1,0 +1,262 @@
+.section.wrapper-box {
+  background-color: rgb(239, 245, 255);
+}
+.section.wrapper {
+  background-color: rgb(239, 245, 255);
+}
+.section.box {
+  background-color: rgb(255, 255, 255);
+}
+.section.box h2 {
+  color: rgb(255, 202, 51);
+  font-weight: bold;
+}
+.section.box span {
+  color: rgb(4, 26, 63);
+  font-weight: bold;
+}
+.section.box p {
+  font-weight: bold;
+  font-size: 32px;
+  color: rgb(4, 26, 63);
+  margin-left: 220px;
+}
+.section.header {
+  background-color: rgb(250, 250, 250);
+  width: calc(90% - 145px);
+  height: 750px;
+  position: relative;
+  border-bottom-left-radius: 300px;
+  left: 145px;
+}
+.section.header h2 {
+  color: rgb(255, 202, 51);
+  font-weight: bold;
+}
+.section.header span {
+  color: rgb(4, 26, 63) !important;
+  font-weight: bold;
+}
+.section.header p {
+  font-weight: bold;
+  font-size: 32px;
+  color: rgb(4, 26, 63);
+  margin-left: 220px;
+}
+.section.header .text {
+  font-family: "Montserrat Alternates";
+  font-size: 48px;
+  margin-top: 170px;
+  line-height: 72.8px;
+  padding-left: 130px;
+}
+.section.header .btn.btn-warning {
+  margin-left: 130px;
+  padding-inline: 40px;
+}
+.section.header .main-pic {
+  width: calc(90% - 130px);
+  height: 722px;
+  position: absolute;
+  left: 130px;
+  top: -20px;
+}
+.section.main h4, .section.main h5 {
+  color: rgb(4, 26, 63);
+  font-weight: bold;
+}
+.section.main .row {
+  padding-inline: 265px;
+}
+.section.main .card {
+  border-radius: 10px;
+}
+.section.main a {
+  padding: 5px 20px;
+}
+.section.main .image {
+  width: 100%;
+  height: 320px;
+}
+.section.footer {
+  background-color: rgb(250, 250, 250);
+}
+.section.footer h4 {
+  color: rgb(255, 202, 51);
+  font-weight: bold;
+}
+.section.footer span {
+  color: rgb(4, 26, 63);
+  font-weight: bold;
+}
+.section.footer p {
+  font-weight: bold;
+  color: rgb(4, 26, 63);
+  font-size: 24px;
+}
+.section.main-box .img-size {
+  width: 82px;
+  height: 100px;
+}
+.section.section.costum .mainpage {
+  padding-left: 313px;
+}
+.section.section.costum a, .section.section.costum span, .section.section.costum h1, .section.section.costum h5 {
+  color: rgb(4, 26, 63);
+  font-weight: bold;
+}
+.section.section.costum h4 {
+  color: rgb(255, 202, 51);
+  font-weight: bold;
+}
+.section.section.costum #darthvader {
+  padding-top: 130px;
+}
+.section.section.costum #picturemodal {
+  padding-left: 200px;
+}
+.section.section.content h4, .section.section.content p {
+  color: rgb(4, 26, 63);
+  padding-left: 120px;
+}
+.section.footer p {
+  text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+  .section.wrapper {
+    background-color: white;
+  }
+  .section.header.mobile-reader {
+    width: 100%;
+    left: 0;
+    border-bottom-left-radius: 0px;
+  }
+  .section.header.mobile-reader h2 {
+    margin-top: -20px;
+    padding-left: 0;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 13px;
+  }
+  .section.header.mobile-reader .card {
+    margin: 0;
+    padding: 0;
+  }
+  .section.header.mobile-reader p {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .section.header.mobile-reader .mobile-flex {
+    flex-direction: column-reverse;
+    border-bottom-left-radius: 0px;
+  }
+  .section.header.mobile-reader .mobile-flex .row {
+    margin-right: 0;
+    min-height: 0;
+  }
+  .section.header.mobile-reader .main-pic {
+    position: static;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 424px;
+  }
+  .section.header .btn.btn-warning {
+    margin-left: 80px;
+  }
+  .section.main {
+    color: rgb(4, 26, 63);
+    background-color: rgb(239, 245, 255);
+  }
+  .section.main .row {
+    padding-inline: 0;
+    margin-right: 0;
+  }
+  .section.main .image {
+    padding-inline: 12px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .section.footer .mobile-footer h4, .section.footer .mobile-footer p {
+    text-align: center !important;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .section.wrapper {
+    background-color: white;
+  }
+  .section.header.mobile-reader {
+    width: 100%;
+    left: 0;
+    border-bottom-left-radius: 0px;
+  }
+  .section.header.mobile-reader p {
+    margin-left: 110px;
+    font-size: 18px;
+  }
+  .section.header.mobile-reader h2 {
+    line-height: 38px;
+  }
+  .section.header.mobile-reader .mobile-flex {
+    flex-direction: column-reverse;
+  }
+  .section.header.mobile-reader .main-pic {
+    position: static;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 424px;
+    margin-right: 0px;
+  }
+  .section.header.mobile-reader .text {
+    font-size: 32px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-inline: 150px;
+  }
+  .section.header .btn.btn-warning {
+    margin-inline: 200px;
+  }
+  .section.main .row {
+    padding-inline: 0px;
+  }
+  .section.main .image {
+    padding-inline: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section.wrapper {
+    background-color: white;
+  }
+  .section.header.mobile-reader {
+    width: 90%;
+    left: 0;
+    border-bottom-left-radius: 0px;
+  }
+  .section.header p {
+    margin-left: 140px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .section.header.mobile-reader {
+    width: calc(90% - 145px);
+    left: 0;
+  }
+  .section.header .text {
+    padding-left: 30px;
+  }
+  .section.main .row {
+    padding-inline: 65px !important;
+  }
+  .section.footer p, .section.footer h4 {
+    padding-inline: 65px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
