@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "sass": "^1.83.1"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
