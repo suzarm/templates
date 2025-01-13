@@ -1,0 +1,22 @@
+$black:#363636;
+$beige:#BAA598;
+
+.section{
+
+    &.header{
+
+        .section-header-content img{
+            width:48px;
+            height:48px;
+        }
+
+        .section-header-content h1{
+            color:$beige;
+        }
+    }
+
+    &.navbar-nav{
+        color:$black;
+    }
+}
+    
