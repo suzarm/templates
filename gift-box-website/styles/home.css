@@ -1,5 +1,5 @@
 .main-img-left{
-    background-image: url(./images/0973f6d06568e54d19ac7557b77ccaf2.jpg);
+    background-image: url('./images/0973f6d06568e54d19ac7557b77ccaf2.jpg');
     background-position:center; 
     background-size:cover;
     width:100%;
@@ -7,7 +7,7 @@
 }
 
 .main-img-right{
-    background-image: url(./images/21e9164c5a1391e44b31e6dbfbf1cb93.jpg);
+    background-image: url('./images/21e9164c5a1391e44b31e6dbfbf1cb93.jpg');
     background-size: cover;
     background-position:center; 
     width:100%;
@@ -73,21 +73,21 @@ button{
 }
 
 .featured-img-first{
-    background-image: url(./images/968a9722cc9e49b044d4a1d898029bb3.png);
+    background-image: url('./images/968a9722cc9e49b044d4a1d898029bb3.png');
     background-size: cover;
     width:350px;
     height:370px;
 }
 
 .featured-img-second{
-    background-image: url(./images/b09de6f6e3cd42209498d62238209cb5.png);
+    background-image: url('./images/b09de6f6e3cd42209498d62238209cb5.png');
     background-size: cover;
     width:350px;
     height:370px;
 }
 
 .featured-img-third{
-    background-image: url(./images/1a7b77681bf138ee353efd6d76b2bcd9.png);
+    background-image: url('./images/1a7b77681bf138ee353efd6d76b2bcd9.png');
     background-size: cover;
     width:350px;
     height:370px;
@@ -114,7 +114,7 @@ button{
 
 .section-follow-first-image{
     margin-top: 40px;
-    background-image: url(./images/follow-first.jpg);
+    background-image: url('./images/follow-first.jpg');
     background-position: center;
     width: 100%;
     height: 476px;
@@ -165,7 +165,7 @@ button{
 }
 
 .section-follow-second-image{
-    background-image: url(./images/follow-2.png);
+    background-image: url('./images/follow-2.png');
     background-position: center;
     background-size: cover;
     width:380px;
@@ -181,7 +181,7 @@ button{
 }
 
 .first-image{
-    background-image: url(./images/follow-1.jpg);
+    background-image: url('./images/follow-1.jpg');
     background-position: center;
     background-size: cover;
     width:185px;
@@ -189,7 +189,7 @@ button{
 }
 
 .second-image{
-    background-image: url(./images/follow-third.png);
+    background-image: url('./images/follow-third.png');
     background-position: center;
     background-size: cover;
     width:185px;
@@ -197,7 +197,7 @@ button{
 }
 
 .third-image{
-    background-image: url(./images/follow-4.png);
+    background-image: url('./images/follow-4.png');
     background-position: center;
     background-size: cover;
     width:185px;
@@ -205,7 +205,7 @@ button{
 }
 
 .fourth-image{
-    background-image: url(./images/follow-5.png);
+    background-image: url('./images/follow-5.png');
     background-position: center;
     background-size: cover;
      width:185px;
@@ -270,7 +270,7 @@ button{
 }
 
 .first-icon{
-    background-image:url(./images/first-logo.png) ;
+    background-image:url('./images/first-logo.png') ;
     background-position: center;
     background-size: cover;
     width:180px;
@@ -278,7 +278,7 @@ button{
 }
 
 .second-icon{
-    background-image:url(./images/second-logo.jpg) ;
+    background-image:url('./images/second-logo.jpg') ;
     background-position: center;
     background-size: cover;
     width:180px;
@@ -286,7 +286,7 @@ button{
 }
 
 .third-icon{
-    background-image:url(./images/third-logo.png) ;
+    background-image:url('./images/third-logo.png') ;
     background-position: center;
     background-size: cover;
     width:180px;
@@ -294,7 +294,7 @@ button{
 }
 
 .fourth-icon{
-    background-image:url(./images/fourth-logo.jpg) ;
+    background-image:url('./images/fourth-logo.jpg') ;
     background-position: center;
     background-size: cover;
     width:180px;
@@ -302,7 +302,7 @@ button{
 }
 
 .fifth-icon{
-    background-image:url(./images/fifth-logo.png) ;
+    background-image:url('./images/fifth-logo.png') ;
     background-position: center;
     background-size: cover;
     width:180px;
