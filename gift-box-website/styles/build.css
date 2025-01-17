@@ -79,12 +79,6 @@ input[type="range"]::-webkit-slider-thumb {
     color:black;
 }
 
-.text-uppercase:hover{
-    border:1px solid black;
-    padding:10px 30px;
-    color:black;
-}
-
 input{
     font-size:16px;
 }
