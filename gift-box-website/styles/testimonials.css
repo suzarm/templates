@@ -1,0 +1,43 @@
+.main-section-wrapper h3{
+    font-family: "Cormorant Garamond", serif;
+}
+
+h6 i{
+    color:rgb(5, 133, 122);
+    font-size:20px;
+}
+
+.button-content{
+    margin:auto;
+}
+
+button{
+    padding:5px 25px;
+    background-color: white;;
+}
+
+.mt-4.ml-4{
+    padding-left:5px;
+}
+
+.testimonials-content.mt-5{
+    padding-top:50px;
+}
+
+.section-form .row{
+    margin:auto;
+}
+
+.btn{
+    border:1px solid gray;
+    padding:5px 15px;
+    margin-left:25px;
+    font-weight:700;
+}
+
+.section-form input, .section-form textarea,.section-form.form-check-input{
+    border:none;
+    outline:none;
+    box-shadow: 2px 2px 8px 0px #00000040 inset;
+
+}
