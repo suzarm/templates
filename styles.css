@@ -18,7 +18,7 @@ h1{
     padding-top:20px;
 }
 
-.first-template,.second-template,.third-template{
+.first-template,.second-template,.third-template,.fourth-template{
     width:400px;
     height:auto;
     border:1px solid rgb(194, 188, 188);
@@ -28,21 +28,21 @@ h1{
 }
 
 .grid-img{
-     height:300px;
+    height:300px;
     background-image:url('./images/london.jpg') ;
     background-size: cover;
 }
 
-.grid-h2,.womazing-h2,.costum-h2{
+.grid-h2,.womazing-h2,.costum-h2,.gift-h2{
     font-size:30px;
     text-align:center;
 }
 
-.grid-content,.womazing-content,.costum-content{
+.grid-content,.womazing-content,.costum-content,.gift-content{
     font-size:24px;
 }
 
-.grid-text,.womazing-text,.costum-text{
+.grid-text,.womazing-text,.costum-text,.gift-text{
     text-decoration: none;
     color:black;
    
@@ -58,4 +58,11 @@ h1{
     background-image: url('./images/Group\ 5.png');
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.gift-img{
+    background-size: 100%;
+    height:300px;
+    background-position: center;
+    background-image:url(./gift-box-website/styles/images/9f16e4483e69928b9e91d0e7769d6527.jpg) ;
 }
