@@ -1,0 +1,25 @@
+.main-section-wrapper h3{
+    font-family:"Cormorant Garamond", serif;
+}
+
+.main-section-wrapper .container-fluid{
+    max-width:1200px;
+    margin:auto;
+}
+
+.main-section-wrapper .col-md-6{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+img{
+    width:200px;
+    height:200px;
+    margin-bottom: 10px;         
+}
+
+button{
+    background-color: white;
+    padding:5px 50px;
+}
