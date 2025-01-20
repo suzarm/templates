@@ -176,12 +176,14 @@ a{
     line-height:28px;
 }
 
-@media only screen and (min-width: 699px) and (max-width: 1120px){
+@media only screen and (min-width: 390px) and (max-width: 1120px){
+
     .icon,.contact-info a{
         margin-top:20px;
         text-align: center;
         z-index:2;
         font-size:15px;
+        border:1px solid red;
     }
 
     .logo-text,.tel,.tel-num{
