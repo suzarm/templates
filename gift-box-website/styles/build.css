@@ -68,7 +68,8 @@ input[type="range"]::-webkit-slider-thumb {
 .button{
     background-color: white;
     width:100px;
-    border:1px solid rgb(65, 62, 62)
+    border:1px solid rgb(65, 62, 62);
+    background-color: white;
 }
 
 .section-main-wrapper-step-2{
@@ -81,8 +82,16 @@ input[type="range"]::-webkit-slider-thumb {
 
 input{
     font-size:16px;
+    
 }
 
 h3{
     font-family:"Cormorant Garamond", serif;
+}
+
+.btn.px-4{
+    background-color: white;
+    padding:12px 33px;
+    width:140px;
+    margin-top:10px;
 }
