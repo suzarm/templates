@@ -35,6 +35,9 @@ body{
 .navbar-nav .nav-item {
     margin: 0 15px; 
 }
+.navabr-nav{
+    padding:0px;
+}
 
 .navbar-nav a{
     color:#575D65;
@@ -70,4 +73,18 @@ body{
     height: 1px; 
     background-color:#575D65; 
     margin: 10px auto 0;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 1120px){
+
+    .section-header-content h1{
+        font-size:30px;
+    }
+
+    .footer-img{
+        width:155px;
+        height:105px;
+    }
+
+    
 }
