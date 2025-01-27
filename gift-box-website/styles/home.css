@@ -22,6 +22,7 @@ button{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     font-weight:700;
+   
 }
 
 .col-md-4{
@@ -39,15 +40,15 @@ button{
     font-family: "Cormorant Garamond", serif;
 }
 
-.text-center {
-    width:1080px;
-    font-size:24px;
+.h4-text-center {
+    font-size:22px;
     margin:50px auto;
     color:#575D65;
     font-weight:300;
+    text-align: center;
 }
 
-.text-center::after {
+.h4-text-center::after {
     content: '';
     display: block;
     width: 230px;
@@ -104,7 +105,7 @@ button{
     position:relative;
 }
 
-.section-foolow-h1,.section-partners-h1{
+.section-foolow-h1,.section-partners h1{
     text-align: center;
     font-style: italic;
     font-family:"Cormorant Garamond", serif;
@@ -116,21 +117,14 @@ button{
     margin-top: 40px;
     background-image: url('./images/follow-first.jpg');
     background-position: center;
+    background-size: cover;
     width: 100%;
     height: 476px;
     display: flex;
     justify-content: flex-end; 
     align-items: center; 
-
-}
-
-.overlay{
-    position:absolute;
-    top:35px;
-    width:100%;
-    height:476px;
     opacity:0.3;
-    background-color:rgb(241, 227, 227);
+
 }
 
 .image-content {
@@ -180,35 +174,8 @@ button{
     height:380px;
 }
 
-.first-image{
-    background-image: url('./images/follow-1.jpg');
-    background-position: center;
-    background-size: cover;
+.first-image,.second-image,.third-image,.fourth-image{
     width:185px;
-    height:185px;
-}
-
-.second-image{
-    background-image: url('./images/follow-third.png');
-    background-position: center;
-    background-size: cover;
-    width:185px;
-    height:185px;
-}
-
-.third-image{
-    background-image: url('./images/follow-4.png');
-    background-position: center;
-    background-size: cover;
-    width:185px;
-    height:185px;
-}
-
-.fourth-image{
-    background-image: url('./images/follow-5.png');
-    background-position: center;
-    background-size: cover;
-     width:185px;
     height:185px;
 }
 
@@ -220,29 +187,7 @@ button{
     padding-left:140px;
 }
 
-.section-partners,.section-partners-footer{
-    background-color:#A7938526 ;
-}
-
-.section-partners .col-md-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    font-size:40px;
-}
-
-.section-partners-footer{
-    padding:60px 0px;
-}
-
-.partners-footer-h1{
-    text-align: center;
-    font-size:24px;
-    margin: 0;
-    font-weight:400;
-}
-
-.section-partners-footer .row::before{
+.section-shipping::before{
     content: '';
     display: block;
     width: 230px;
@@ -250,66 +195,117 @@ button{
     background-color:#575D65; 
     margin: 70px auto 0;
 }
-
-
-.section-partner-footer-content{
-    gap:10px;
+.content-h1 h1{
+    font-size:28px;
+    font-weight:400;
+    padding-top: 15px;
 }
 
-.footer-header-icon{
-    font-size:60px;
-    color:rgb(201, 210, 238);
+.bi.bi-arrow-up{
+    font-size:55px;
+    background-color:#D2E2DC;
+    color:white;
+    margin-left: 100px;;
 }
 
-.icons{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    gap:20px;
-    background-color: transparent;
-}
-
-.first-icon{
-    background-image:url('./images/first-logo.png') ;
-    background-position: center;
-    background-size: cover;
+.carousel-img{
     width:180px;
     height:100px;
 }
 
-.second-icon{
-    background-image:url('./images/second-logo.jpg') ;
-    background-position: center;
-    background-size: cover;
-    width:180px;
-    height:100px;
+.bi.bi-arrow-left-short,.bi.bi-arrow-right-short{
+    font-size:35px;
+    color:black;
 }
 
-.third-icon{
-    background-image:url('./images/third-logo.png') ;
-    background-position: center;
-    background-size: cover;
-    width:180px;
-    height:100px;
+.bi.bi-arrow-left-short{
+    margin-right:60px;
+   
 }
 
-.fourth-icon{
-    background-image:url('./images/fourth-logo.jpg') ;
-    background-position: center;
-    background-size: cover;
-    width:180px;
-    height:100px;
+.bi.bi-arrow-right-short{
+    padding-left:200px;
 }
 
-.fifth-icon{
-    background-image:url('./images/fifth-logo.png') ;
-    background-position: center;
-    background-size: cover;
-    width:180px;
-    height:100px;
+.section-shipping .row{
+    margin: auto;
+}
+
+.section-shipping{
+    position:relative;
+}
+
+.carousel-inner img {
+    max-height: 200px; 
+    object-fit: contain; 
+}
+
+.section-partners .row {
+   max-width:1200px;
+   margin:auto;
+   padding-left:40px;
 }
 
 .img{
     width:183px;
     height:123px;
+}
+
+
+@media only screen and (min-width: 390px) and (max-width: 1120px){
+    .display-1{
+        font-size:58px;
+        line-height:74px;
+        padding:20px 0;
+    }
+
+    .section-main-btn{
+        margin-bottom:40px;
+    }
+
+    .text-center{
+       padding-inline:20px;
+    }
+
+    .section-featured-h1{
+        font-size:47px;
+    }
+
+    .btn.btn-outline-dark{
+        margin-bottom: 20px;
+    }
+    
+    .section-follow{
+        margin-top:0;
+        padding-bottom:20px;
+    }
+
+    .section-follow .col-md-8{
+        justify-content: center;
+        padding-right:0;
+    }
+
+    .section-partners h1{
+        padding-top:0;
+    }
+
+    .content-h1 h1{
+      font-size:20px;
+    }
+
+    .img{
+        display:none;
+    }
+
+    .content-i{
+        margin-top:30px;
+    }
+    .bi.bi-arrow-left-short,.bi.bi-arrow-right-short{
+        display:none;
+    }
+
+    .section-follow-first-image{
+        justify-content: center;
+    }
+    
 }
