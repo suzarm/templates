@@ -187,6 +187,7 @@
 
 .section-team-pic{
     background-image: url(./images/adam-winger-fI-TKWjKYls-unsplash\ 1.png);
+    background-position: center;
     width:729px;
     height:488px;
 }
@@ -243,7 +244,7 @@
    
     .header-main-pic{
         top:20px;
-        right:120px;
+        right:-20px;
         height:652px;
         background-image: url(./images/header-main-pic.png);
         background-size: cover;
@@ -327,17 +328,18 @@
     }
 
     .section-team-pic{
-        width:600px;
-        margin-inline:20px;
+        width:390px;
     }
 
     .section-team-content{
         width:100%;
         text-align:center;
+        padding-left: 0px;;
     }
 
     .section-team-content p{
         font-size:18px;
+       
     }
 
 }
