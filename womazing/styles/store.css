@@ -109,4 +109,47 @@
 }
 
 
+@media only screen and (min-width: 390px) and (max-width: 1120px){
+
+    .section-main{
+        margin-top:0px;
+        text-align: center;
+    }
+
+    .section-main-title{
+        font-size:45px;
+        margin-bottom:10px;
+    }
+
+    .section-main-collection-name{
+        margin-top:40px;
+    }
+
+    .section-main-collection-name-list {
+       flex-direction: column;
+       text-align: center;
+    }
+    .section-main-collection-name-list li{
+        line-height:2px;
+        padding:20px 20px;
+        width:180px;
+    }
+
+    .section-main-collection-title{
+        margin-top:40px;
+        text-align: center;
+    }
+
+    .section-collection-main-images{
+        margin-top:30px;
+        flex-direction: column;
+        align-items:center;
+    }
+    .main-img-content-p{
+        margin-bottom:10px;
+    }
+
+}
+
+
 

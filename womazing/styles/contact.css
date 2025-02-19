@@ -39,6 +39,7 @@
 }
 
 .section-main-title{
+    font-size:45px;
     font-size:25px;
     margin-top:80px;
 }
@@ -75,4 +76,8 @@
     border:1px solid #F1EADC;
     padding:30px 76px;
     margin-top:100px;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 1120px){
+
 }

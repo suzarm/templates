@@ -123,3 +123,72 @@
 .main-footer-end-btn a{
     color:white;
 }
+
+@media only screen and (min-width: 390px) and (max-width: 1120px){
+    .section-main {
+        margin-top:40px;
+    }
+
+    .section-main-title{
+        font-size:45px;
+        text-align: center;
+    }
+
+     .section-main-content{
+        text-align: center;
+     }
+
+     .items{
+        margin-top:50px;
+        margin-inline:10px;
+     }
+
+     .item{
+        margin-bottom:0px;
+     }
+
+     .first-item-list{
+        gap:53px;
+     }
+
+     .item-close,.second-item-list,.main-footer-end-text{
+        display:none;
+     }
+
+     .choosen-items{
+        flex-direction: column;
+     }
+
+     .items-img {
+        flex-direction: column;
+        justify-content: center;
+        margin-top:43px;
+     }
+
+     .coupon-items{
+        margin-top:40px;
+        flex-direction: column;
+        align-items: center;
+        margin:20px 68px;
+     }
+
+     .coupon-input{
+        text-align: center;
+     }
+
+     .coupon-btn{
+        margin:10px 0px;
+     }
+
+     .main-footer-end{
+        flex-direction: column;
+     }
+
+     .main-footer-end-btn{
+        padding:12px;
+        margin-inline:68px;
+     }
+
+
+    
+}

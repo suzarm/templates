@@ -12,6 +12,7 @@
     margin:auto;
     margin-top:40px;
     position:relative;
+
 }
 
 .navbar-wrapper{
@@ -177,6 +178,17 @@ a{
 }
 
 @media only screen and (min-width: 390px) and (max-width: 1120px){
+
+    .wrapper{
+        margin-top:0px;
+    }
+
+    .navbar{
+        font-size:12px;
+        margin:0px;
+        padding:0px;
+        border:1px solid red;
+    }
 
     .navbar-wrapper{
         padding-top:0px;
