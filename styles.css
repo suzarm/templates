@@ -45,7 +45,10 @@ h1{
 .grid-text,.womazing-text,.costum-text,.gift-text{
     text-decoration: none;
     color:black;
-   
+}
+
+.grid-text:hover, .womazing-text:hover, .costum-text:hover, .gift-text:hover{
+    color:lightblue;
 }
 
 .womazing-img{
