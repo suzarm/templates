@@ -67,11 +67,8 @@
     height:478px;
 }
 
-.third-main-arrow-img{
-    background-image:url(./images/Фото\ товара.png) ;
-    background-size: cover;
-    width:350px;
-    height:478px;
+#page:hover{
+    color:lightblue;
 }
 
 .main-img-content{
