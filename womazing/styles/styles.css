@@ -152,6 +152,7 @@ a{
     color:black;
     text-decoration: none;
 }
+
 .footer-soc-media i{
     font-size:22px;
     padding-inline:5px;
@@ -187,7 +188,6 @@ a{
         font-size:12px;
         margin:0px;
         padding:0px;
-        border:1px solid red;
     }
 
     .navbar-wrapper{

@@ -80,4 +80,34 @@
 
 @media only screen and (min-width: 390px) and (max-width: 1120px){
 
+    .section-main{
+        margin-top:0px;
+        text-align: center;
+    }
+    .section-main-title{
+        font-size:45px;
+        margin-bottom:10px;
+    }
+
+    .section-main-card{
+        margin-top:40px;
+        width:90%;
+    }
+
+    .section-main-card-content{
+        margin-top:0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-tel,.container-address,.container-e-mail{
+        display: flex;
+    }
+
+    .section-form{
+        width:100%;
+        text-align: center;
+        margin-inline:10px;
+    }
 }
