@@ -18,7 +18,7 @@ h1{
     padding-top:20px;
 }
 
-.first-template,.second-template,.third-template,.fourth-template{
+.first-template,.second-template,.third-template,.fourth-template,.fifth-template{
     width:400px;
     height:auto;
     border:1px solid rgb(194, 188, 188);
@@ -27,28 +27,28 @@ h1{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.grid-img{
-    height:300px;
-    background-image:url('./images/london.jpg') ;
-    background-size: cover;
-}
-
-.grid-h2,.womazing-h2,.costum-h2,.gift-h2{
+.grid-h2,.womazing-h2,.costum-h2,.gift-h2,.electronic-h2{
     font-size:30px;
     text-align:center;
 }
 
-.grid-content,.womazing-content,.costum-content,.gift-content{
+.grid-content,.womazing-content,.costum-content,.gift-content,.electronic-content{
     font-size:24px;
 }
 
-.grid-text,.womazing-text,.costum-text,.gift-text{
+.grid-text,.womazing-text,.costum-text,.gift-text,.electronic-text{
     text-decoration: none;
     color:black;
 }
 
-.grid-text:hover, .womazing-text:hover, .costum-text:hover, .gift-text:hover{
+.grid-text:hover, .womazing-text:hover, .costum-text:hover, .gift-text:hover,.electronic-text:hover{
     color:lightblue;
+}
+
+.grid-img{
+    height:300px;
+    background-image:url('./images/london.jpg') ;
+    background-size: cover;
 }
 
 .womazing-img{
@@ -69,4 +69,13 @@ h1{
     background-position: center;
     background-image:url(./gift-box-website/styles/images/9f16e4483e69928b9e91d0e7769d6527.jpg) ;
 }
+
+.electronic-img{
+    background-size: 100%;
+    height:300px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-image:url(./smart-electronics/styles/images/Rectangle\ 61.png)
+}
+
 
