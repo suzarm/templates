@@ -1,0 +1,295 @@
+body{
+    font-family: "Exo 2", sans-serif;
+}
+
+.navbar,
+.wrapper,
+.header-navbar{
+    max-width:70%;
+    margin:auto;
+    font-family: "Exo 2", sans-serif;
+}
+
+.wrapper{
+    padding-bottom:100px;
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.navbar-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info span{
+    font-size:16px;
+    margin:10px;
+    font-weight:500;
+}
+
+.info a{
+    text-decoration: none;
+    color:#070C11;
+    margin-inline:10px;
+}
+
+.info a:hover,
+.info span:hover,
+.icon-link:hover{
+    transform: scale(1.1);
+    font-weight:bold;
+}
+
+.search-btn{
+    color:#838688;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom:#838688;
+    border: 1px solid white; 
+    border-bottom: 1px solid #838688;
+    cursor: pointer; 
+    outline: none; 
+}
+
+.search-btn:hover {
+    background-color: #f0f0f0; 
+    border-bottom: 2px solid #5e5f5d;
+    transform: scale(0.98); 
+    color: #333; 
+}
+
+.icons{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+
+.icons a{
+    text-decoration: none;
+    color:#838688;
+}
+
+#icon-i{
+    border:none;
+    background-color: white;
+    color:#838688;
+    margin:0;
+    padding:0;
+}
+
+.icons-btn{
+    color:white;
+    background-color:#2A5275 ;
+    border-radius: 4px;
+    padding:10px 20px;
+}
+
+.icons-btn:hover{
+    transform: scale(1.1);
+    background-color: #243C53;
+}
+
+.main-section-title h2{
+    font-size:36px;
+    margin-top: 70px;
+}
+
+.order-section-content{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.order-section-content{
+    align-items: center;
+}
+
+.aside-wrapper{
+    margin-top:142px;
+}
+
+.summery-section{
+    background-color:#EDF2F6;
+    padding:0px 20px;
+    border-radius:8px;
+    padding-bottom:20px;
+}
+
+.order-section-title,
+.delivery-section-title,
+.summery-section-title{
+    font-size:28px;
+}
+
+.order-section,
+.delivery-section{
+    margin-top:30px;
+    border:1px solid #C8CACB;
+    border-radius:8px;
+    padding:0px 20px 20px;
+
+}
+
+.summery-section-title{
+    padding-top:1px;
+}
+
+.order-section-card-img img{
+    width:80px;
+    height:80px;
+    border:1px solid  #C8CACB;
+}
+
+.change-button{
+    padding:10px 60px;
+    background-color:white;
+    color:#4878A6;
+    border:1px solid #4878A6;
+    font-weight:700;
+    font-size:16px;
+    margin-left:auto;
+}
+
+.delivery-section-title h6{
+    margin:0px;
+    font-weight:300;
+    font-size:16px;
+}
+
+.info-content{
+    margin-top:10px;
+    display:flex;
+    gap:30px;
+    padding-bottom:20px;
+    border-bottom:2px solid  #EAEAF0;
+}
+
+select{
+    padding:10px 40px;
+    width:330px;
+    border-radius:2px;
+}
+
+.input-content label{
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:10px;
+    width:300px;
+    margin-bottom:10px;
+    border-radius:2px;
+    border:1px solid #EAEAF0;
+}
+
+.input-content label:hover{
+    border:1px solid #4878A6;
+    color:#4878A6;
+}
+
+.info-wrapper{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.time-content,
+.address-content,
+.comment-content
+{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    gap:10px;
+}
+
+.address-content input,
+.time-content select
+{
+    padding:10px;
+    width:400px;
+    border:1px solid #EAEAF0;
+}
+
+.comment-content input{
+    padding:10px;
+    border:1px solid #EAEAF0;
+}
+
+.button-info{
+    margin-top:20px;
+}
+
+.btn{
+    background-color:#4878A6 ;
+    border:1px solid #4878A6 ;
+    color:white;
+    padding:10px 80px;
+    border-radius:4px;
+}
+
+.input-info{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top:30px;
+    border-radius:8px;
+}
+
+.input-info input{
+    padding:30px;
+    color:#838688;
+    font-size:28px;
+    font-weight: 700;
+    border: 1px solid #838688;
+}
+
+.last-text{
+    margin-top:30px;
+}
+
+.span,
+.span-bold{
+    float:right;
+}
+
+.summery-content{
+    border-bottom:1px solid #838688;
+    padding-bottom:20px;
+}
+
+.summery-payment{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summery-payment p{
+    font-size:24px;
+    font-weight: 600;
+}
+
+.span-bold{
+    font-weight: 700;
+    font-size:36px;
+}
+
+.summery-btn button{
+    width:100%;
+    padding:10px;
+    background-color:#838688;
+    border:1px solid #838688;
+    color:white;
+    border-radius:4px;
+}
+
+.summery-input{
+    padding:20px;
+}
+
+.left-span{
+    margin-left:17px;
+}
+
+
