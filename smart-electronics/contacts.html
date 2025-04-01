@@ -26,7 +26,7 @@
             </div>
             
             <div class="icons">
-                <button class="search-btn">
+                <button class="search-btn"  id="search-login">
                      <i class="fa-solid fa-magnifying-glass"></i> 
                      Поиск
                 </button>
@@ -235,6 +235,19 @@
             <span>Разработка: websl.ru</span>
         </div>
     </div>
+
+    <div id="search-popup" class="search-popup">
+        <div class="search-popup-content">
+            <div class="input-section">
+                <span class="search-close-btn" id="close-search-popup">&times;</span>
+                <input type="text" placeholder="Введите запрос, например «Smart balance»" class="input">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./search-popup.js"></script>
+    <script src="./accordion-script.js"></script>
 
     
 </body>

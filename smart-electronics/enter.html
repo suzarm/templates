@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/enter.css">
     <title>Smart-Electronics</title>
 </head>
 <body>
@@ -39,9 +39,21 @@
                     <i class="fa-solid fa-chart-simple" id="icon-i"></i>
                 </a>
                 <a href="#cart" class="icon-link">
-                    <i class="fa-solid fa-cart-shopping" id="icon-i"></i>
+                    <i class="fa-solid fa-cart-shopping" id=icon-i></i>
                 </a>
-                <button class="icons-btn" id="login-btn">Войти</button>
+                <div class="user-container">
+                    <div id="userIcon" class="user-icon">
+                        <i class="fa-solid fa-id-badge"></i>
+                    </div>
+                    <div class="dropdown" id="userDropdown">
+                        <a href="#">Общие сведения</a>
+                        <a href="#">Личные данные</a>
+                        <a href="#">История покупок</a>
+                        <a href="#">Избранное</a>
+                        <a href="#">Сменить пароль</a>
+                        <a href="index.html">Выйти</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -1100,63 +1112,6 @@
             <span>Разработка: websl.ru</span>
         </div>
     </div>
-    
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <div class="popup-content-header">
-                <span class="close-btn" id="close-btn">&times;</span>
-            <h2>Вход</h2>
-            </div>
-            <form>
-                <label style=" margin-top:30px;">Эл. почта или телефон</label>
-                <input type="email">
-                <label>Пароль</label>
-                <div class="input-container">
-                    <input type="password" class="pass">
-                    <i class="fa-solid fa-lock" id="lock-icon"></i>
-                    <i class="fa-regular fa-eye" id="eye-icon"></i>
-                </div>
-            </form>
-            <a href="#" class="link">Забыли пароль?</a>
-            <div class="remember">
-                <label>
-                    <input type="checkbox"> <span> Запомнить меня</span>
-                </label>
-            </div>
-            <a href="enter.html" class="a">
-                <button class="enter-btn">Войти</button>
-            </a>
-            <a href="#" class="register" id="open-login-popup">Зарегистрироваться</a>
-        </div>
-    </div>
-
-
-    <div id="login-popup" class="popup">
-        <div class="login-popup-content">
-            <div class="popup-content-header">
-                <span class="close-btn" id="close-login-popup">&times;</span>
-            <h2>Регистрация</h2>
-            </div>
-            <form>
-                <label style=" margin-top:30px;">Имя</label>
-                <input type="text">
-                <label >Эл. почта</label>
-                <input type="email">
-                <label>Номер телефона</label>
-                <input type="number">
-                <label>Придумайте пароль</label>
-                <div class="input-container">
-                    <input type="password" class="search-pass" autocomplete="current-password">
-                    <i class="fa-solid fa-lock" id="login-popup-lock"></i>
-                    <i class="fa-solid fa-eye-slash" id="login-popup-eye"></i>
-                </div>
-            </form>
-            <p class="login-popup-text">Регистрируясь, вы соглашаетесь 
-                <br><a>с пользовательским соглашением</a></p>
-            <button class="enter-btn">Войти</button>
-            <p class="p-text">Я уже зарегистрирован</p>
-        </div>
-    </div>
 
     <div id="search-popup" class="search-popup">
         <div class="search-popup-content">
@@ -1166,29 +1121,12 @@
             </div>
         </div>
     </div>
+    
 
-
-
-
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-   <script src="./pop-up.js"></script>
-   <script src="./search-popup.js"></script>
-   <script src="./swipper-script.js"></script>
+    <script src="./search-popup.js"></script>
+    <script src="./enter.js"></script>
 
 
 </body>
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-      

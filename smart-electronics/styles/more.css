@@ -313,3 +313,50 @@ body{
     transform: scale(1.1);
     box-shadow:#4878A6 1.95px 1.95px 2.6px;
 }
+
+
+.input-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    border: 1px solid #f5eeee;
+    width: 1212px;
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-right: 81px;
+}
+
+.search-popup {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 107, 179, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.search-popup-content{
+    background-color: white;
+    position: fixed;
+    top:0;
+    height:64px;
+    width:100%;
+    margin:auto;
+   
+}
+
+.search-close-btn {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    right: 298px;
+    color:red;
+}

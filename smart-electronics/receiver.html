@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/receiver.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <a href="index.html"><img src="./styles/images/logo.png"></a>
+            </div>
+            <div class="info">
+                <span><a href="tel:+78126605054">+7 (812) 660-50-54</a></span>
+                <span><a href="tel:+79581119503">+7 (958) 111-95-03</a></span>
+                <span style="color:#838688">Пн-вс: с 10:00 до 21:00</span>
+            </div>
+            
+            <div class="icons">
+                <button class="search-btn"  id="search-login">
+                     <i class="fa-solid fa-magnifying-glass"></i> 
+                     Поиск
+                </button>
+                <a href="view.html" class="icon-link">
+                    <i class="fa-regular fa-eye"></i>
+                </a>
+                <a href="#wishlist" class="icon-link">
+                    <i class="fa-regular fa-heart" id="icon-i"></i>
+                </a>
+                <a href="stats.html" class="icon-link">
+                    <i class="fa-solid fa-chart-simple" id="icon-i"></i>
+                </a>
+                <a href="#cart" class="icon-link">
+                    <i class="fa-solid fa-cart-shopping" id="icon-i"></i>
+                </a>
+                <button class="icons-btn">Войти</button>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="main-section">
+            <div class="main-section-title">
+                <h2>Оформление заказа</h2>
+            </div>
+            <div class="main-wrapper">
+                <div class="order-section">
+                    <div class="order-section-title" >
+                        <h3>Ваш заказ</h3>
+                    </div>
+                    <div class="order-section-content">
+                        <div class="order-section-card-img">
+                            <img src="./styles/images/hoverboard.png">
+                            <img src="./styles/images/hoverboard.png" style="margin-left:10px;">
+                        </div>
+                        <div class="order-section-card-button">
+                            <button class="change-button">Изменить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="delivery-section" style="margin-top:40px;">
+                    <div class="delivery-section-title">
+                        <h3>Способ получения</h3>
+                    </div>
+                    <div class="delivery-section-content-info">
+                        <div class="delivery-section-content-address">
+                            <p class="delivery-text">Самовывоз из:</p>
+                        <p>г. Санкт-Петербург, Бульвар Новаторов, 7</p>
+                        <span class="delivery-time">ПН-ВС 09:00 — 22:00</span>
+                        </div>
+                        <div class="delivery-section-content-btn">
+                            <button class="change-button" style="margin-top:60px;">Изменить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-info">
+                    <a href="payment.html">
+                        <div class="input-info-card">
+                            <h3>Способ оплаты</h3>
+                           <div class="payment-info">
+                                <p>Наличными</p>
+                                <button class="button">Изменить</button>
+                           </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="receiver-card">
+                    <h3 class="receiver-card-title">Получатель</h3>
+                        <div class="receiver-card-content">
+                            <div class="input-group">
+                                <div class="first-group">
+                                    <div class="firstname-input">
+                                        <label>Имя</label>
+                                        <input type="text" placeholder="Например, Иван">
+                                    </div>
+                                    <div class="number-input">
+                                        <label>Номер телефона</label>
+                                        <input type="text" placeholder="+7 (9__) ___-__-__">
+                                    </div>
+                                </div>
+                                <div class="second-group">
+                                    <div class="lastname-input">
+                                        <label>Фамилия</label>
+                                        <input type="text" placeholder="Например, Иванов">
+                                    </div>
+                                    <div class="emaill-input">
+                                        <label>Эл. почта</label>
+                                        <input type="email" placeholder="Например,  smart@gmail.com">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-label">
+                                <label class="label">
+                                    <input type="checkbox"><span> Не перезванивать мне для подтверждения заказа</span>
+                                </label>
+                            </div>
+                        </div>
+                </div>
+                <p class="last-text" style="color:#838688">SmartТехника © 2021 Все права защищены</p>
+            </div>
+        </div>
+        <div class="aside-wrapper">
+            <div class="summery-section">
+                <div class="summery-section-title">
+                    <h3>Итого</h3>
+                </div>
+                <div class="summery-content">
+                    <p>2 товара на сумму<span class="span">22 580 ₽</span></p>
+                    <p>Стоимость доставки<span class="span">бесплатно</span></p>
+                </div>
+                <div class="summery-payment">
+                    <p>К оплате</p>
+                    <span class="span-bold">22 580 ₽</span>
+                </div>
+                <div class="summery-btn">
+                    <button>Оформить заказ</button>
+                </div>
+            </div>
+            <div class="summery-input">
+                <label>
+                  <input type="checkbox"> <span> Подтверждая заказ, я принимаю условия</span>
+                    <br>
+                        <span class="left-span">пользовательского соглашения</span>
+                </label>
+            </div>
+        </div>
+    </div>
+        
+    <script src="./accordion-script.js"></script>
+    
+</body>
+</html>
+
+
+
+    
+
+   
+   
+       
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
