@@ -240,7 +240,7 @@ label{
     font-weight:400;
 }
 
-.receuver-card-content {
+.receiver-card-content {
     display:flex;
     justify-content: space-between;
     flex-direction: column;

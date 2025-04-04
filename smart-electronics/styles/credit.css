@@ -248,7 +248,7 @@ body{
 }
 
 .form-wrapper{
-    width:70%;
+    max-width:70%;
     margin:auto;
     padding-bottom:100px;
     display:flex;
@@ -350,3 +350,239 @@ body{
 }
 
 
+@media only screen and (min-width:768px) and (max-width:1120px){
+
+    .navbar{
+        max-width:100%;
+        margin:0;
+        padding:10px 0px;
+       
+    }
+
+    .info a,
+    .info span,.search-btn,
+    .fa-solid.fa-cart-shopping,
+    .header,
+    .header-navbar-content,
+    .side-list{
+        display:none;
+    }
+
+    .logo{
+        margin-left:15px;
+    }
+
+    .icons{
+        float:left;
+    }
+    .header-navbar{
+        max-width:100%;
+        margin:0;
+    }
+
+    .header-navbar-side-list{
+        width:100%;
+     }
+   
+     .wrapper{
+        max-width:100%;
+        margin-inline:20px;
+        padding-bottom:30px;
+        font-size: 28px;
+     }
+
+     .main-section{
+        max-width:100%;
+     }
+
+    .footer-content{
+        width:90%;
+        flex-wrap: wrap;
+        justify-content: flex-start; 
+        padding:0px;
+    }
+    
+    h2{
+        margin-left:10px;
+    }
+    
+    ul{
+        padding-inline-start:8px;
+    }
+    
+    .store-content-title,
+    .client-content-title,
+    .contact-content-title {
+        margin-left:8px;
+       
+    }
+    .client-content{
+        margin-left:110px;
+    }
+    .contact-content{
+        margin-left:165px;
+    }
+
+    .form-wrapper{
+        max-width:100%;
+        align-items: flex-start;
+        flex-direction: column;
+        margin:0;
+
+     }
+
+
+    
+    .footer-rights{
+        display:block;
+        width:80%;
+    }
+    
+    .social-media{
+        display:block;
+        float:right;
+        margin-right:70px;
+    }
+    
+    .social-media i{
+        margin-left:10px;
+    }
+    
+    .footer-span{
+        display:block;
+    }
+    
+    
+    
+    }
+
+
+
+
+    @media only screen and (min-width:320px) and (max-width:767px){
+
+
+        .navbar{
+            max-width:100%;
+            margin:0;
+            padding:10px 0px;
+        }
+    
+        .navbar-content{
+            margin-inline:10px;
+        }
+    
+        .info a,
+        .info span,.search-btn,
+        .fa-solid.fa-cart-shopping,
+        .header,
+        .header-navbar-content,
+        .side-list,
+        .icons i,
+        .res-span{
+            display:none;
+        }
+
+        .icons{
+            gap:10px;
+        }
+    
+        .header-navbar{
+            max-width:100%;
+            margin:0;
+        }
+
+        .header-navbar-side-list{
+            width:100%;
+        }
+
+         .wrapper{
+            max-width:100%;
+            margin-inline:20px;
+            padding-bottom:0px;
+         }
+         .main-section{
+            max-width:100%;
+            margin-inline:10px;
+         }
+
+         .img{
+            max-width:100%;
+            margin:0;
+         }
+
+         .yellow{
+            width:100%;
+         }
+
+         .form-wrapper{
+            max-width:100%;
+            align-items: flex-start;
+            flex-direction: column;
+            margin:0;
+        }
+
+         .form-section{
+            width:328px;
+            padding:7px;
+            border-radius: 0;
+         }
+
+        }
+        .form input{
+            width:300px;
+            margin:auto;
+        }
+
+        .btn-form{
+            width:312px;
+        }
+
+         .main-section-content-title h2{
+            font-size: 24px;
+         }
+
+         h3{
+            margin: left 0 !important;
+         }
+
+        .footer-content{
+            width:90%;
+            flex-wrap: wrap;
+            justify-content: flex-start; 
+        }
+        
+        ul{
+            padding-inline-start:8px;
+        }
+        
+        .client-content-title, .store-content-title, .contact-content-title{
+            margin-left:10px;
+        }
+        
+        .footer-rights{
+            width:90%;
+            flex-direction:column;
+            align-items: flex-start;
+            gap:5px;
+            padding:15px;
+        }
+        
+        .footer-rights span{
+            margin-top:30px;
+        
+        }
+        
+        .social-media{
+            position:absolute;
+            
+        }
+        
+        .footer-span{
+            margin-top:0px !important;;
+        }
+        
+        
+}
+        
+    

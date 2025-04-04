@@ -661,3 +661,175 @@ select{
     right: 298px;
     color:red;
 }
+
+
+
+@media only screen and (min-width:768px) and (max-width:1120px){
+    
+    .navbar{
+        max-width:100%;
+        margin:0;
+        padding:10px 0px;
+    }
+
+    .info a,
+     .info span,.search-btn,
+      .fa-solid.fa-cart-shopping,
+      .header-navbar-content,
+      .side-list{
+        display:none;
+    }
+
+    .logo{
+        margin-left:15px;
+    }
+
+    .icons{
+        float:left;
+    }
+
+    .header{
+        background-color:transparent;
+    }
+
+    .header-navbar{
+        max-width:100%;
+        margin:0;
+    }
+
+  .header-navbar-side-list{
+     width:100%;
+  }
+
+
+
+  .footer-content{
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+h2{
+    margin-left:10px;
+}
+
+ul{
+    padding-inline-start:8px;
+}
+
+.store-content-title,
+.client-content-title,
+.contact-content-title {
+    margin-left:8px;
+   
+}
+.client-content{
+    margin-left:110px;
+}
+.contact-content{
+    margin-left:165px;
+}
+
+.footer-rights{
+    display:block;
+    width:80%;
+}
+
+.social-media{
+    display:block;
+    float:right;
+    margin-right:70px;
+}
+
+.social-media i{
+    margin-left:10px;
+}
+
+.footer-span{
+    display:block;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+
+    .navbar{
+        max-width:100%;
+        margin:0;
+        padding:10px 0px;
+    }
+
+    .navbar-content{
+        margin-inline:10px;
+    }
+
+    .info a,
+     .info span,.search-btn,
+      .fa-solid.fa-cart-shopping,
+      .header-navbar-content,
+      .side-list,
+      .icons i{
+        display:none;
+    }
+
+    .header{
+        background-color: transparent;
+    }
+
+    .icons{
+        gap:10px;
+    }
+
+    .header-navbar{
+        max-width:100%;
+        margin:0;
+    }
+
+  .header-navbar-side-list{
+     width:100%;
+    
+  }
+
+  
+.footer-content{
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+ul{
+    padding-inline-start:8px;
+}
+
+.client-content-title, .store-content-title, .contact-content-title{
+    margin-left:10px;
+}
+
+.footer-rights{
+    width:90%;
+    flex-direction:column;
+    align-items: flex-start;
+    gap:5px;
+    padding:15px;
+}
+
+.footer-rights span{
+    margin-top:30px;
+
+}
+
+.social-media{
+    position:absolute;
+    
+}
+
+.footer-span{
+    margin-top:0px !important;;
+}
+
+}

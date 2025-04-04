@@ -760,11 +760,12 @@ form  input{
         padding:10px 0px;
     }
 
+
     .info a,
-     .info span,.search-btn,
-      .fa-solid.fa-cart-shopping,
-      .header-navbar-content,
-      .side-list{
+    .info span,.search-btn,
+    .fa-solid.fa-cart-shopping,
+    .header-navbar-content,
+    .side-list{
         display:none;
     }
 
@@ -786,13 +787,12 @@ form  input{
     }
 
   .header-navbar-side-list{
-     width:100%;
+     max-width:100%;
   }
 
   .slider-container{
-    width:100%;
+    max-width:100%;
     padding:0;
-    margin-inline:10px;
   }
 
   .swiper-slide img{
@@ -807,6 +807,7 @@ form  input{
   .header-navbar-side-list{
     width:100%;
     padding-left:0;
+    
   }
   
    .swiper-pagination {
@@ -825,6 +826,17 @@ form  input{
    .swiper-pagination-bullet {
     width:140px;
   } 
+
+  .main-wrapper{
+    border:1px solid red;
+    position: fixed;
+    height:64px;
+    width:100%;
+    background-color:#2A5275;
+    left: 0;
+    z-index:1;
+    bottom:0;
+  }
 
   .main-section{
     width:100%;

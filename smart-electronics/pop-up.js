@@ -39,7 +39,8 @@ closeLoginPopup.onclick = function() {
 eyeIcon.onclick = function() {
     if (passwordInput.type === 'password') {
         passwordInput.type = 'text'; 
-        eyeIcon.innerHTML = '<i class="fa fa-eye"></i>'; 
+        eyeIcon.classList.remove('fa-eye-slash');
+        eyeIcon.classList.add('fa-eye');
     } else {
         passwordInput.type = 'password'; 
         eyeIcon.innerHTML = '<i class="fa fa-eye-slash"></i>'; 
