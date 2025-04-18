@@ -29,16 +29,16 @@
                      <i class="fa-solid fa-magnifying-glass"></i> 
                      Поиск
                 </button>
-                <a href="view.html" class="icon-link">
+                <a href="viewedProducts.html" class="icon-link">
                     <i class="fa-regular fa-eye"></i>
                 </a>
                 <a href="#wishlist" class="icon-link">
                     <i class="fa-regular fa-heart" id="icon-i"></i>
                 </a>
-                <a href="stats.html" class="icon-link">
+                <a href="compareProducts.html" class="icon-link">
                     <i class="fa-solid fa-chart-simple" id="icon-i"></i>
                 </a>
-                <a href="#cart" class="icon-link">
+                <a href="basket.html" class="icon-link">
                     <i class="fa-solid fa-cart-shopping" id="icon-i"></i>
                 </a>
                 <button class="icons-btn" id="login-btn">Войти</button>
@@ -102,10 +102,10 @@
                                 <a href="about.html" class="side-link">О компании </a>
                         </li>
                         <li class="side-list">
-                                <a href="stock.html" class="side-link">Акции</a>
+                                <a href="promotions.html" class="side-link">Акции</a>
                         </li>
                         <li class="side-list">
-                                <a href="percent.html" class="side-link">Рассрочка 0|0|18</a>
+                                <a href="credit.html" class="side-link">Рассрочка 0|0|18</a>
                         </li>
                         <li class="side-list">
                                 <a href="service.html" class="side-link">Сервис и гарантия</a>
@@ -114,7 +114,7 @@
                                 <a href="" class="side-link">Опт/дропшиппинг</a>
                         </li>
                         <li class="side-list">
-                            <a href="contacts.html" class="side-link">Контакты</a>
+                            <a href="contact.html" class="side-link">Контакты</a>
                         </li>
                     </ul>
                     <section class="slider-container">
@@ -146,7 +146,30 @@
                 </div> 
             </div>
          </div>
-         <div class="main-wrapper"></div>
+         <div class="resp-wrapper">
+            <div class="resp-wrapper-icons">
+                <div class="resp-icon-content">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Главная</span>
+                </div>
+               <div class="resp-icon-content">
+                    <i class="fa-solid fa-bars"></i>
+                    <span id="catalogue-login">Каталог</span>
+               </div>
+               <div class="resp-icon-content">
+                <i class="fa-solid fa-basket-shopping"></i>
+                    <span>Корзина</span>
+               </div>
+               <div class="resp-icon-content">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span id="search-login">Поиск</span>
+               </div>
+               <div class="resp-icon-content">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span id="more-login">Ещё</span>
+               </div>
+            </div>
+        </div>
         <div class="main-section">
             <div class="main-section-title">
                 <h2>Хиты продаж</h2><span class="span">Все товары</span><img src="./styles/images/Polygon 1.png" class="span-img">
@@ -1168,13 +1191,97 @@
         </div>
     </div>
 
+    <div id="catalogue-popup" class="catalogue-popup">
+        <div class="catalogue-popup-content">
+           <div class="catalogue-content-header">
+                <div class="content-section-title">Каталог</div>
+                <span class="catalogue-close-btn" id="close-catalogue-popup">&times;</span>
+           </div>
+            <div class="catalogue-pop-up-header-navbar-list">
+                <div class="list-img">
+                    <img src="./styles/images/icons for menu.png" class="link-img">
+                    <a href="hoverboard.html" class="header-link">Гироскутеры</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-2.png" class="link-img">
+                    <a href=""  class="header-link">Электросамокаты</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-3.png" class="link-img">
+                    <a href=""  class="header-link">Моноколеса</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-4.png" class="link-img">
+                    <a href="catalog.html"  class="header-link">Сигвеи и мини-сигвеи</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-5.png" class="link-img">
+                    <a href=""  class="header-link">Электроскутеры</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-6.png" class="link-img">
+                    <a href=""  class="header-link">Электровелосипеды</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-7.png" class="link-img">
+                    <a href=""  class="header-link">Электроскейты</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-8.png" class="link-img">
+                    <a href=""  class="header-link">Аксессуары</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-11.png" class="link-img">
+                    <a href=""  class="header-link">Умные игрушки</a>
+                </div>
+                <div class="list-img">
+                    <img src="./styles/images/icon-12.png" class="link-img">
+                    <a href=""  class="header-link">Smart Watch</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+     <div id="more-popup" class="more-popup">
+        <div class="more-popup-content">
+            <div class="more-content-header">
+                 <div class="content-section-title">Ещё</div>
+                 <span class="more-close-btn" id="close-more-popup">&times;</span>
+            </div>
+            <div class="more-pop-up-header-navbar-list">
+                <ul>
+                    <li class="more-list">
+                        <a >О компании</a>
+                    </li>
+                    <li class="more-list">
+                        <a>Акции</a>
+                    </li>
+                    <li class="more-list">
+                        <a>Рассрочка 0–0-12</a>
+                    </li>
+                    <li class="more-list">
+                        <a>Сервис и ремонт</a>
+                    </li>
+                    <li class="more-list">
+                        <a>Опт/дропшиппинг</a>
+                    </li>
+                    <li class="more-list">
+                        <a>Контакты</a>
+                    </li>
+                </ul>
+            </div>
+     </div>
 
 
 
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
    <script src="./pop-up.js"></script>
    <script src="./search-popup.js"></script>
+   <script src="./catalogue-popup.js"></script>
+   <script src="./more-popup.js"></script>
    <script src="./swipper-script.js"></script>
 
 
