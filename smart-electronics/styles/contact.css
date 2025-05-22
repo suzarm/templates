@@ -605,6 +605,7 @@ ul{
 
     .header{
         background-color: transparent;
+        height:30px;
     }
 
     .icons{
@@ -621,38 +622,79 @@ ul{
     
   }
 
-  
-.footer-content{
-    width:90%;
-    flex-wrap: wrap;
-    justify-content: flex-start; 
-}
+  .main-section{
+    margin-top:0px;
+    max-width:100%;
+  }
 
-ul{
-    padding-inline-start:8px;
-}
+  .main-section-title{
+    margin-top:0px;
+  }
 
-.client-content-title, .store-content-title, .contact-content-title{
-    margin-left:10px;
-}
+  .main-section-content-title h2{
+    margin-top:10px;
+  }
 
-.footer-rights{
-    width:90%;
-    flex-direction:column;
-    align-items: flex-start;
-    gap:5px;
-    padding:15px;
-}
+  .wrapper{
+    flex-direction:column-reverse;
+    max-width:90%;
+    padding-bottom: 20px;
+  }
 
-.footer-rights span{
-    margin-top:30px;
+    .btn-section{
+        width:90%;
+        flex-direction:column-reverse;
+        margin:0 auto;
+    }
 
-}
+    label{
+        margin-top:10px;
+        width:340px; 
+    }
 
-.social-media{
-    position:absolute;
-    
-}
+    .wrapper img{
+        width:306px;
+        height:336px;    
+    }
+    .contact-wrapper{
+        max-width:90%;
+    }
+
+    .aside-wrapper-section{
+        width:100%;
+    }
+
+    .footer-content{
+        width:90%;
+        flex-wrap: wrap;
+        justify-content: flex-start; 
+    }
+
+    ul{
+        padding-inline-start:8px;
+    }
+
+    .client-content-title, .store-content-title, .contact-content-title{
+        margin-left:10px;
+    }
+
+    .footer-rights{
+        width:90%;
+        flex-direction:column;
+        align-items: flex-start;
+        gap:5px;
+        padding:15px;
+    }
+
+    .footer-rights span{
+        margin-top:30px;
+
+    }
+
+    .social-media{
+        position:absolute;
+        
+    }
 
 .footer-span{
     margin-top:0px !important;;
